@@ -9,7 +9,7 @@ import cors from 'cors';
 import router from "./api/Router.js";
 
 await mongoose.connect(
-    'mongodb+srv://freak123:freak123@cluster0.arnx4ok.mongodb.net/?retryWrites=true&w=majority'
+    'mongodb+srv://<username>:<password>@cluster0.arnx4ok.mongodb.net/?retryWrites=true&w=majority'
 )
 
 const app = express();
